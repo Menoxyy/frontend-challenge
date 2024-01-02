@@ -1,0 +1,88 @@
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            height: 100vh; /* This ensures the container takes the full height of the viewport */
+        }
+
+        .image-container {
+            /* Optional: Adjust max-width to limit the width of the container */
+            max-width: 600px;
+        }
+
+
+        .image-container{
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+
+
+        .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        width: 90%; 
+        height: 100%;
+            border-radius: 5%;
+        }
+
+        .button-learning{
+            width: 15%;
+            height: 30px;
+            text-align: center;
+            font-size: 1em;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 0.5em;
+            margin-left: 5%;
+            margin-top: 5%;
+            background-color: rgb(223, 167, 63);
+            color: black;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .para-1{
+            margin-left: 5%;
+            margin-top: 2%;
+            font-size: 2em;
+        }
+
+        .para-2 {
+      text-transform: capitalize;
+      margin-left: 5%;
+      margin-top: 2%;
+      font-size: 2em;
+      text-transform: uppercase;
+        }
+
+        .para-3{
+            margin-left: 5%;
+            margin-top: 2%;
+            font-size: 1em;
+            width: 50%;
+        }
+
+        .review{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-left: 5%;
+            margin-top: 2%;
+        }
+
+
+        .name-person{
+            text-transform: uppercase;
+            font-size: 1em;
+            font-family: sans-serif;
+            margin: 5%;
+            width: max-content;
+        }
